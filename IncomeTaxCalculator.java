@@ -196,14 +196,14 @@ public class IncomeTaxCalculator extends Application {
 		primaryStage.show();
 	}
 
-	public static void importData(String file) {
-		try {
-			FileReader filereader = new FileReader(file);
-
-		} catch (FileNotFoundException e) {
-
-		}
-	}// importData
+//	public static void importData(String file) {
+//		try {
+//			FileReader filereader = new FileReader(file);
+//
+//		} catch (FileNotFoundException e) {
+//
+//		}
+//	}// importData
 
 	public double[] calculateFedTaxforSingle(double amount) {
 		double[] f_tax = new double[2];
